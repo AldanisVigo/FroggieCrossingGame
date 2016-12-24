@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		717F1EE61E0E2DB200F18326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717F1EE51E0E2DB200F18326 /* AppDelegate.swift */; };
+		717F1EE81E0E2DB200F18326 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 717F1EE71E0E2DB200F18326 /* GameScene.sks */; };
+		717F1EEA1E0E2DB200F18326 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 717F1EE91E0E2DB200F18326 /* Actions.sks */; };
+		717F1EEC1E0E2DB200F18326 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717F1EEB1E0E2DB200F18326 /* GameScene.swift */; };
+		717F1EEE1E0E2DB200F18326 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717F1EED1E0E2DB200F18326 /* GameViewController.swift */; };
+		717F1EF11E0E2DB200F18326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717F1EEF1E0E2DB200F18326 /* Main.storyboard */; };
+		717F1EF31E0E2DB200F18326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717F1EF21E0E2DB200F18326 /* Assets.xcassets */; };
+		717F1EF61E0E2DB200F18326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717F1EF41E0E2DB200F18326 /* LaunchScreen.storyboard */; };
+		717F1F011E0E2DB200F18326 /* Froggie_CrossingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717F1F001E0E2DB200F18326 /* Froggie_CrossingTests.swift */; };
+		717F1F0C1E0E2DB200F18326 /* Froggie_CrossingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717F1F0B1E0E2DB200F18326 /* Froggie_CrossingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		717F1EFD1E0E2DB200F18326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 717F1EDA1E0E2DB100F18326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 717F1EE11E0E2DB100F18326;
+			remoteInfo = "Froggie Crossing";
+		};
+		717F1F081E0E2DB200F18326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 717F1EDA1E0E2DB100F18326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 717F1EE11E0E2DB100F18326;
+			remoteInfo = "Froggie Crossing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		717F1EE21E0E2DB200F18326 /* Froggie Crossing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Froggie Crossing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717F1EE51E0E2DB200F18326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		717F1EE71E0E2DB200F18326 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		717F1EE91E0E2DB200F18326 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		717F1EEB1E0E2DB200F18326 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		717F1EED1E0E2DB200F18326 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		717F1EF01E0E2DB200F18326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		717F1EF21E0E2DB200F18326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		717F1EF51E0E2DB200F18326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		717F1EF71E0E2DB200F18326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717F1EFC1E0E2DB200F18326 /* Froggie CrossingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Froggie CrossingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717F1F001E0E2DB200F18326 /* Froggie_CrossingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Froggie_CrossingTests.swift; sourceTree = "<group>"; };
+		717F1F021E0E2DB200F18326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717F1F071E0E2DB200F18326 /* Froggie CrossingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Froggie CrossingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717F1F0B1E0E2DB200F18326 /* Froggie_CrossingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Froggie_CrossingUITests.swift; sourceTree = "<group>"; };
+		717F1F0D1E0E2DB200F18326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		717F1EDF1E0E2DB100F18326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717F1EF91E0E2DB200F18326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717F1F041E0E2DB200F18326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		717F1ED91E0E2DB100F18326 = {
+			isa = PBXGroup;
+			children = (
+				717F1EE41E0E2DB200F18326 /* Froggie Crossing */,
+				717F1EFF1E0E2DB200F18326 /* Froggie CrossingTests */,
+				717F1F0A1E0E2DB200F18326 /* Froggie CrossingUITests */,
+				717F1EE31E0E2DB200F18326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		717F1EE31E0E2DB200F18326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				717F1EE21E0E2DB200F18326 /* Froggie Crossing.app */,
+				717F1EFC1E0E2DB200F18326 /* Froggie CrossingTests.xctest */,
+				717F1F071E0E2DB200F18326 /* Froggie CrossingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		717F1EE41E0E2DB200F18326 /* Froggie Crossing */ = {
+			isa = PBXGroup;
+			children = (
+				717F1EE51E0E2DB200F18326 /* AppDelegate.swift */,
+				717F1EE71E0E2DB200F18326 /* GameScene.sks */,
+				717F1EE91E0E2DB200F18326 /* Actions.sks */,
+				717F1EEB1E0E2DB200F18326 /* GameScene.swift */,
+				717F1EED1E0E2DB200F18326 /* GameViewController.swift */,
+				717F1EEF1E0E2DB200F18326 /* Main.storyboard */,
+				717F1EF21E0E2DB200F18326 /* Assets.xcassets */,
+				717F1EF41E0E2DB200F18326 /* LaunchScreen.storyboard */,
+				717F1EF71E0E2DB200F18326 /* Info.plist */,
+			);
+			path = "Froggie Crossing";
+			sourceTree = "<group>";
+		};
+		717F1EFF1E0E2DB200F18326 /* Froggie CrossingTests */ = {
+			isa = PBXGroup;
+			children = (
+				717F1F001E0E2DB200F18326 /* Froggie_CrossingTests.swift */,
+				717F1F021E0E2DB200F18326 /* Info.plist */,
+			);
+			path = "Froggie CrossingTests";
+			sourceTree = "<group>";
+		};
+		717F1F0A1E0E2DB200F18326 /* Froggie CrossingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				717F1F0B1E0E2DB200F18326 /* Froggie_CrossingUITests.swift */,
+				717F1F0D1E0E2DB200F18326 /* Info.plist */,
+			);
+			path = "Froggie CrossingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		717F1EE11E0E2DB100F18326 /* Froggie Crossing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717F1F101E0E2DB200F18326 /* Build configuration list for PBXNativeTarget "Froggie Crossing" */;
+			buildPhases = (
+				717F1EDE1E0E2DB100F18326 /* Sources */,
+				717F1EDF1E0E2DB100F18326 /* Frameworks */,
+				717F1EE01E0E2DB100F18326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Froggie Crossing";
+			productName = "Froggie Crossing";
+			productReference = 717F1EE21E0E2DB200F18326 /* Froggie Crossing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		717F1EFB1E0E2DB200F18326 /* Froggie CrossingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717F1F131E0E2DB200F18326 /* Build configuration list for PBXNativeTarget "Froggie CrossingTests" */;
+			buildPhases = (
+				717F1EF81E0E2DB200F18326 /* Sources */,
+				717F1EF91E0E2DB200F18326 /* Frameworks */,
+				717F1EFA1E0E2DB200F18326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				717F1EFE1E0E2DB200F18326 /* PBXTargetDependency */,
+			);
+			name = "Froggie CrossingTests";
+			productName = "Froggie CrossingTests";
+			productReference = 717F1EFC1E0E2DB200F18326 /* Froggie CrossingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		717F1F061E0E2DB200F18326 /* Froggie CrossingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717F1F161E0E2DB200F18326 /* Build configuration list for PBXNativeTarget "Froggie CrossingUITests" */;
+			buildPhases = (
+				717F1F031E0E2DB200F18326 /* Sources */,
+				717F1F041E0E2DB200F18326 /* Frameworks */,
+				717F1F051E0E2DB200F18326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				717F1F091E0E2DB200F18326 /* PBXTargetDependency */,
+			);
+			name = "Froggie CrossingUITests";
+			productName = "Froggie CrossingUITests";
+			productReference = 717F1F071E0E2DB200F18326 /* Froggie CrossingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		717F1EDA1E0E2DB100F18326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Aldanis Vigo";
+				TargetAttributes = {
+					717F1EE11E0E2DB100F18326 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P7XF7AVQX2;
+						ProvisioningStyle = Automatic;
+					};
+					717F1EFB1E0E2DB200F18326 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P7XF7AVQX2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 717F1EE11E0E2DB100F18326;
+					};
+					717F1F061E0E2DB200F18326 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P7XF7AVQX2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 717F1EE11E0E2DB100F18326;
+					};
+				};
+			};
+			buildConfigurationList = 717F1EDD1E0E2DB100F18326 /* Build configuration list for PBXProject "Froggie Crossing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 717F1ED91E0E2DB100F18326;
+			productRefGroup = 717F1EE31E0E2DB200F18326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				717F1EE11E0E2DB100F18326 /* Froggie Crossing */,
+				717F1EFB1E0E2DB200F18326 /* Froggie CrossingTests */,
+				717F1F061E0E2DB200F18326 /* Froggie CrossingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		717F1EE01E0E2DB100F18326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717F1EF11E0E2DB200F18326 /* Main.storyboard in Resources */,
+				717F1EE81E0E2DB200F18326 /* GameScene.sks in Resources */,
+				717F1EF31E0E2DB200F18326 /* Assets.xcassets in Resources */,
+				717F1EF61E0E2DB200F18326 /* LaunchScreen.storyboard in Resources */,
+				717F1EEA1E0E2DB200F18326 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717F1EFA1E0E2DB200F18326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717F1F051E0E2DB200F18326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		717F1EDE1E0E2DB100F18326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717F1EEC1E0E2DB200F18326 /* GameScene.swift in Sources */,
+				717F1EEE1E0E2DB200F18326 /* GameViewController.swift in Sources */,
+				717F1EE61E0E2DB200F18326 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717F1EF81E0E2DB200F18326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717F1F011E0E2DB200F18326 /* Froggie_CrossingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717F1F031E0E2DB200F18326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717F1F0C1E0E2DB200F18326 /* Froggie_CrossingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		717F1EFE1E0E2DB200F18326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 717F1EE11E0E2DB100F18326 /* Froggie Crossing */;
+			targetProxy = 717F1EFD1E0E2DB200F18326 /* PBXContainerItemProxy */;
+		};
+		717F1F091E0E2DB200F18326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 717F1EE11E0E2DB100F18326 /* Froggie Crossing */;
+			targetProxy = 717F1F081E0E2DB200F18326 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		717F1EEF1E0E2DB200F18326 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717F1EF01E0E2DB200F18326 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		717F1EF41E0E2DB200F18326 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717F1EF51E0E2DB200F18326 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		717F1F0E1E0E2DB200F18326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		717F1F0F1E0E2DB200F18326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		717F1F111E0E2DB200F18326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7XF7AVQX2;
+				INFOPLIST_FILE = "Froggie Crossing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aldanisvigo.com.Froggie-Crossing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		717F1F121E0E2DB200F18326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7XF7AVQX2;
+				INFOPLIST_FILE = "Froggie Crossing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aldanisvigo.com.Froggie-Crossing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		717F1F141E0E2DB200F18326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P7XF7AVQX2;
+				INFOPLIST_FILE = "Froggie CrossingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aldanisvigo.com.Froggie-CrossingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Froggie Crossing.app/Froggie Crossing";
+			};
+			name = Debug;
+		};
+		717F1F151E0E2DB200F18326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P7XF7AVQX2;
+				INFOPLIST_FILE = "Froggie CrossingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aldanisvigo.com.Froggie-CrossingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Froggie Crossing.app/Froggie Crossing";
+			};
+			name = Release;
+		};
+		717F1F171E0E2DB200F18326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P7XF7AVQX2;
+				INFOPLIST_FILE = "Froggie CrossingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aldanisvigo.com.Froggie-CrossingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Froggie Crossing";
+			};
+			name = Debug;
+		};
+		717F1F181E0E2DB200F18326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P7XF7AVQX2;
+				INFOPLIST_FILE = "Froggie CrossingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aldanisvigo.com.Froggie-CrossingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Froggie Crossing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		717F1EDD1E0E2DB100F18326 /* Build configuration list for PBXProject "Froggie Crossing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717F1F0E1E0E2DB200F18326 /* Debug */,
+				717F1F0F1E0E2DB200F18326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		717F1F101E0E2DB200F18326 /* Build configuration list for PBXNativeTarget "Froggie Crossing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717F1F111E0E2DB200F18326 /* Debug */,
+				717F1F121E0E2DB200F18326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		717F1F131E0E2DB200F18326 /* Build configuration list for PBXNativeTarget "Froggie CrossingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717F1F141E0E2DB200F18326 /* Debug */,
+				717F1F151E0E2DB200F18326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		717F1F161E0E2DB200F18326 /* Build configuration list for PBXNativeTarget "Froggie CrossingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717F1F171E0E2DB200F18326 /* Debug */,
+				717F1F181E0E2DB200F18326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 717F1EDA1E0E2DB100F18326 /* Project object */;
+}
